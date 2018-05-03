@@ -281,6 +281,7 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         BtnColor.setPreferredSize(SizeColorBox);
+        BtnColor.setBackground(Color.BLACK);
         BtnColor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtnColorActionPerformed(evt);
@@ -886,7 +887,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private java.awt.Point old;
     private File fileImgae = null;
     BufferedImage bfImage = null;
-    private  Color color = null;
+    private  Color color = Color.BLACK;
     private  Shape shape = new Rectangle();
     Dimension SizeColorBox = new Dimension(20, 20);
     // Variables declaration - do not modify//GEN-BEGIN:variables

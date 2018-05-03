@@ -448,7 +448,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnColorActionPerformed"/>
       </Events>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BtnColor.setPreferredSize(SizeColorBox);"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="BtnColor.setPreferredSize(SizeColorBox);&#xa;BtnColor.setBackground(Color.BLACK);"/>
       </AuxValues>
     </Component>
   </SubComponents>
